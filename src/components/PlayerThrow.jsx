@@ -1,6 +1,6 @@
 //PlayerThrow.jsx
 import React from 'react';
-import './styles/PlayerThrow.css'; // For the .selected class styling
+import '../styles/PlayerThrow.css'; // For the .selected class styling
 
 const throws =['rock', 'paper', 'scissors'];
 
