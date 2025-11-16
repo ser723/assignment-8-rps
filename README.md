@@ -8,9 +8,9 @@ This prjoect is a React impmlementation of the classic Rock-Paper-Scissors game,
 
 Bash
    
-git clone [your-repo-link]
+git clone assignment-8-rps
 
-cd rock-paper-scissors-game
+cd assignment-8-rps
 
 2. Install dependencies:
 
