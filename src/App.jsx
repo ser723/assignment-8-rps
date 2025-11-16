@@ -5,7 +5,7 @@ import ComputerThrow from './components/ComputerThrow';
 import ResultDisplay from './components/ResultDisplay';
 import ScoreBoard from './components/ScoreBoard';
 import ResetButton from './components/ResetButton';
-import './App.css'; 
+import './styles/App.css'; 
 
 const CHOICES = [ 'rock', 'paper', 'scissors' ];
 const SCORE_KEY = 'rpsScore';
