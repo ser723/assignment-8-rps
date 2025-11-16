@@ -1,10 +1,10 @@
 //App.jsx
 import React, { useState, useEffect, useRef } from 'react';
-import PlayerThrow from './PlayerThrow';
-import ComputerThrow from './ComputerThrow';
-import ResultDisplay from './ResultDisplay';
-import ScoreBoard from './ScoreBoard';
-import ResetButton from './ResetButton';
+import PlayerThrow from './components/PlayerThrow';
+import ComputerThrow from './components/ComputerThrow';
+import ResultDisplay from './components/ResultDisplay';
+import ScoreBoard from './components/ScoreBoard';
+import ResetButton from './components/ResetButton';
 import './App.css'; 
 
 const CHOICES = [ 'rock', 'paper', 'scissors' ];
