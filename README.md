@@ -1,16 +1,32 @@
-# React + Vite
+# Rock-Paper-Scissors Game -V2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This prjoect is a React impmlementation of the classic Rock-Paper-Scissors game, featuring user interaction and a fun animation for the computer's throw.
 
-Currently, two official plugins are available:
+## Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
 
-## React Compiler
+Bash
+   
+git clone [your-repo-link]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+cd rock-paper-scissors-game
 
-## Expanding the ESLint configuration
+2. Install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Bash
+
+npm install
+
+3. Run the application:
+
+Bash
+
+npm run dev
+
+The application will abe available at the local host: http://localhost:5173
+## Implementation Reflection
+
+The core challenge was coordinationg the asychronous actions of the user's selectin, the copmuter's animation, and the final result calculation. This was managed effectively in the App.jsx 
+component using useState for state tracking and the setTimeout/setInterval combination to control the three-second duration and stop animation before revealing the final choice. Modularizing
+the UI into components like PlayerThrow and ResultDipslay kept the root component clean and focused soley on game logic
