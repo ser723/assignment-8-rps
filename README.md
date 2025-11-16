@@ -30,3 +30,11 @@ The application will abe available at the local host: http://localhost:5173
 The core challenge was coordinationg the asychronous actions of the user's selectin, the copmuter's animation, and the final result calculation. This was managed effectively in the App.jsx 
 component using useState for state tracking and the setTimeout/setInterval combination to control the three-second duration and stop animation before revealing the final choice. Modularizing
 the UI into components like PlayerThrow and ResultDipslay kept the root component clean and focused soley on game logic
+
+## Link for Video Demo
+
+
+
+
+https://github.com/user-attachments/assets/dcd5f47c-8ef6-4666-bc35-eee74484894a
+
